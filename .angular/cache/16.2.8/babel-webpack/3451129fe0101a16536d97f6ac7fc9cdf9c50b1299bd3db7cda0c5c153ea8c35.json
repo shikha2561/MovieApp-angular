@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const routes = [{\n  path: '',\n  loadComponent: () => import('./pages/login/login.component').then(a => a.LoginComponent)\n}, {\n  path: 'browse',\n  loadComponent: () => import('./pages/browse/browse.component').then(a => a.BrowseComponent)\n}];","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
